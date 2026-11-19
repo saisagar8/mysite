@@ -1,0 +1,5 @@
+.stats { display: grid; gap: 24px; grid-template-columns: 1fr; }
+.stats .stats-value { font-size: 2.5rem; font-weight: 700; }
+@media (width >= 900px) {
+  .stats { grid-template-columns: repeat(4, 1fr); }
+}
